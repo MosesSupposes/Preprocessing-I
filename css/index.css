@@ -167,7 +167,8 @@ p,
 a,
 li,
 th,
-td {
+td,
+span {
   font-size: 1.8rem;
 }
 section h1,
@@ -191,7 +192,9 @@ div li,
 section th,
 div th,
 section td,
-div td {
+div td,
+section span,
+div span {
   padding: 1rem;
 }
 .main-wrapper__div {
