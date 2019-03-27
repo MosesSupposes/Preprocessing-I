@@ -170,6 +170,30 @@ th,
 td {
   font-size: 1.8rem;
 }
+section h1,
+div h1,
+section h2,
+div h2,
+section h3,
+div h3,
+section h4,
+div h4,
+section h5,
+div h5,
+section h6,
+div h6,
+section p,
+div p,
+section a,
+div a,
+section li,
+div li,
+section th,
+div th,
+section td,
+div td {
+  padding: 1rem;
+}
 .main-wrapper__div {
   width: 100%;
   padding: 2rem 8rem;
@@ -182,6 +206,9 @@ td {
   text-decoration: none;
   margin-right: 2rem;
   color: #555;
+}
+.intro__article--jumbotron {
+  background: #ccc;
 }
 .education__p--studied:before {
   content: 'Studied: ';
