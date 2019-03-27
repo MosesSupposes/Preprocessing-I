@@ -15,12 +15,33 @@ h6 { font-size: 1.8rem; }
 
 p, a, li, th, td { font-size: 1.8rem; }
 
-.education {
-	p:nth-of-type(1):before {
-		content: 'Studied: '
+.main-wrapper {
+	&__div {
+		width: 100%;
+		padding: 2rem 8rem;
+	}
+}
+
+.main-header {
+	&__nav {
+		display: flex;
+		justify-content: flex-end;
 	}
 
-	p:nth-of-type(2):before {
-		content: 'Graduated With: '
+	&__a {
+		text-decoration: none;
 	}
+}
+
+.education {
+	&__p {
+		&--studied:before {
+			content: 'Studied: '
+		}
+
+		&--graduated-with:before {
+			content: 'Graduated With: '
+		}
+	}
+
 }

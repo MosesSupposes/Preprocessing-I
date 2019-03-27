@@ -170,9 +170,20 @@ th,
 td {
   font-size: 1.8rem;
 }
-.education p:nth-of-type(1):before {
+.main-wrapper__div {
+  width: 100%;
+  padding: 2rem 8rem;
+}
+.main-header__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-header__a {
+  text-decoration: none;
+}
+.education__p--studied:before {
   content: 'Studied: ';
 }
-.education p:nth-of-type(2):before {
+.education__p--graduated-with:before {
   content: 'Graduated With: ';
 }
