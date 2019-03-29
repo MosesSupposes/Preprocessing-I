@@ -59,5 +59,27 @@ section, div  {
 			content: 'Graduated With: '
 		}
 	}
+}
 
+.skills {
+	&__article {
+		display: flex;
+	}
+
+	&__article--2-cols {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__section {
+		flex-basis: 50%;
+			
+		&:first-child {
+			border-right: 2px double gray;
+		}
+	}
+
+	&__h2 {
+		text-align: center;
+	}
 }

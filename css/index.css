@@ -219,3 +219,19 @@ div span {
 .education__p--graduated-with:before {
   content: 'Graduated With: ';
 }
+.skills__article {
+  display: flex;
+}
+.skills__article--2-cols {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__section {
+  flex-basis: 50%;
+}
+.skills__section:first-child {
+  border-right: 2px double gray;
+}
+.skills__h2 {
+  text-align: center;
+}
