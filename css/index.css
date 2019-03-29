@@ -197,10 +197,6 @@ section span,
 div span {
   padding: 1rem;
 }
-.main-wrapper__div {
-  width: 100%;
-  padding: 2rem 8rem;
-}
 .main-header__nav {
   display: flex;
   justify-content: flex-end;
@@ -239,4 +235,8 @@ div span {
 .skills__ul {
   padding-left: 8rem;
   list-style: square;
+}
+.main-wrapper__div {
+  width: 100%;
+  padding: 2rem 8rem;
 }

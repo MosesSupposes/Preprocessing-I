@@ -1,72 +1,19 @@
+// reset + base styles
 @import './reset.less';
-@import './mixins.less';
 @import './base.less';
+
+// mixins + varialbes
+@import './mixins.less';
+
+// components
+@import './main-header.less';
+@import './intro.less';
+@import './education.less';
+@import './skills.less';
 
 .main-wrapper {
 	&__div {
 		width: 100%;
 		padding: 2rem 8rem;
-	}
-}
-
-.main-header {
-	&__nav {
-		display: flex;
-		justify-content: flex-end;
-	}
-
-	&__a {
-		text-decoration: none;
-		margin-right: 2rem;
-		color: #555;
-	}
-}
-
-.intro {
-	&__article {
-		&--jumbotron {
-			background: #ccc;
-		}
-	}
-}
-
-.education {
-	&__p {
-		&--studied:before {
-			content: 'Studied: '
-		}
-
-		&--graduated-with:before {
-			content: 'Graduated With: '
-		}
-	}
-}
-
-.skills {
-	&__article {
-		display: flex;
-	}
-
-	&__article--2-cols {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	&__section {
-		flex-basis: 50%;
-		margin-top: 2rem;
-			
-		&:first-child {
-			border-right: 2px double gray;
-		}
-	}
-
-	&__h2 {
-		text-align: center;
-	}
-
-	&__ul {
-		padding-left: 8rem;
-		list-style: square;
 	}
 }
