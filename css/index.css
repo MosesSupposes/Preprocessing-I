@@ -228,10 +228,15 @@ div span {
 }
 .skills__section {
   flex-basis: 50%;
+  margin-top: 2rem;
 }
 .skills__section:first-child {
   border-right: 2px double gray;
 }
 .skills__h2 {
   text-align: center;
+}
+.skills__ul {
+  padding-left: 8rem;
+  list-style: square;
 }
