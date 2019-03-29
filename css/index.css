@@ -222,12 +222,27 @@ div span {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .skills__article--2-cols {
+    flex-wrap: wrap;
+  }
+}
 .skills__section {
   flex-basis: 50%;
   margin-top: 2rem;
 }
+@media (max-width: 500px) {
+  .skills__section {
+    flex-basis: 100%;
+  }
+}
 .skills__section:first-child {
   border-right: 2px double gray;
+}
+@media (max-width: 500px) {
+  .skills__section:first-child {
+    border: none;
+  }
 }
 .skills__h2 {
   text-align: center;

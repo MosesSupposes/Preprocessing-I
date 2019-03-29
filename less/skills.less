@@ -6,14 +6,26 @@
 	&__article--2-cols {
 		display: flex;
 		justify-content: space-between;
+
+		@media @mobile {
+			flex-wrap: wrap;
+		}
 	}
 
 	&__section {
 		flex-basis: 50%;
 		margin-top: 2rem;
+
+		@media @mobile {
+			flex-basis: 100%;
+		}
 			
 		&:first-child {
 			border-right: 2px double gray;
+
+			@media @mobile {
+				border: none;
+			}
 		}
 	}
 
