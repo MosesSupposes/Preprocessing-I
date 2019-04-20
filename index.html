@@ -8,12 +8,171 @@
 
   <link rel="stylesheet" href="css/index.css">
 
-  <!--[if lt IE 9]>
+  <!-- [if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+
+  <div class="main-wrapper__div">
+
+    <!-- Main header -->
+
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <a class="main-header__a" href="index.html">Home</a>
+        <a class="main-header__a" href="#about">About</a>
+        <a class="main-header__a" href="https://mosessupposes.github.io/portfolio-website/">Portfolio</a>
+        <a class="main-header__a" href="https://mosessupposes.github.io/portfolio-website/#contact">Contact</a>
+      </nav>
+    </header>
+
+
+    <!-- Main content -->
+    
+    <main>
+      <!-- Intro -->
+
+      <article class="intro__article--jumbotron">
+        <h1>Moses Samuel</h1>
+        <h2>Full Stack Software Engineer</h2>
+        <p>I turn tea into code!</p>
+
+        <hr>
+
+        <p>If you would like to offer me a role or business opportunity, leave me a message <a href="https://mosessupposes.github.io/portfolio-website/#contact">here</a></p>
+      </article>
+
+
+      <!-- Skills -->
+
+      <article class="skills__article--2-cols">
+        <section class="skills__section">
+          <header>
+            <h2 class="skills__h2">Stuff I'm Good At</h2>
+          </header>
+
+          <div>
+            <ul class="skills__ul">
+              <li>HTML/CSS</li>
+              <li>CSS Preprocessors - Less/Sass</li>
+              <li>JavaScript</li>
+              <li>Functional Programming</li>
+              <li>React</li>
+              <li>Vanilla Node.js</li>
+              <li>Express.js</li>
+              <li>Mongo</li>
+              <li>Python</li>
+              <li>Wordpress</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="skills__section">
+          <header>
+            <h2 class="skills__h2">Stuff That needs improving</h2>
+          </header>
+
+          <div>
+            <ul class="skills__ul">
+              <li>Object Oriented Programming</li>
+              <li>Angular</li>
+              <li>Design Tools</li>
+              <li>SQL Databases</li>
+              <li>Elm</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+
+      <!-- Education -->
+
+      <article class="education__article">
+          <header>
+            <h2>Education</h2>
+          </header>
+
+          <div>
+            <h3>William Tennent High School</h3>
+            <p class="education__p--studied">General Ed</p>
+            <p class="education__p--graduated-with">Diploma</p>
+          </div>
+
+          <div>
+            <h3>Kutztown University of Pennsylvania</h3>
+            <p class="education__p--studied">Computer Science</p>
+            <p class="education__p--graduated-with">Dropped Out</p>
+          </div>
+
+          <div>
+            <h3>Lambda School</h3>
+            <p class="education__p--studied">Full Stack Web Development & Computer Science</p>
+            <p class="education__p--graduated-with">Expected To Graduate December 2019</p>
+          </div>
+      </article>
+
+
+      <!-- Work Experience -->
+
+      <article class="experience">
+        <section>
+          <header>
+              <h2>Work Experience</h2>
+          </header>
+
+          <p>No dev-related work experience yet.</p>
+        </section>
+
+        <section>
+          <header>
+            <h2>Volunteer Experience</h2>
+          </header>
+
+          <table>
+            <tr>
+              <th>Title</th>
+              <th>Company/ Organization</th>
+              <th>Time Frame</th>
+              <th>Summary</th>
+            </tr>
+
+            <tr>
+              <td>Volunteer Front End Developer</td>
+              <td>Code for San Francisco</td>
+              <td>April 2017 - August 2017</td>
+              <td>I helped build the UI for an app that enhanced the information sharing process of a non profit organization called San Francisco Women Against Rape and Violence. Their main asset was a resource guide that aided homeless and impoverished women in San Francisco in finding various hospitality resources around the city, such as shelters, free meals, etc. The PDF format that they were using prior to my team's support was disorganized and not so easily accessible. We facilitated their efforts by building a web app that provided a more simple, organized, and presentable resource guide that any of the organization's beneficiaries could more easily access through cool features we implemented such as offline caching. </td>
+            </tr>
+          </table>
+        </section>
+
+        <div></div>
+      </article>
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+      <!-- TODO: add font-awesome icons here -->
+      <div class="social-media-plugs">
+        <ul>
+          <li>
+            <a href="https://twitter.com/_MosesSupposes_">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/MosesSupposes">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/moses-samuel/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <span>&copy; Moses Samuel</span>
+    </footer>
+  </div> <!-- Main Wrapper -->
+
 </body>
 </html>

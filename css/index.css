@@ -1,1 +1,257 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.9rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+h5 {
+  font-size: 2.1rem;
+}
+h6 {
+  font-size: 1.8rem;
+}
+p,
+a,
+li,
+th,
+td,
+span {
+  font-size: 1.8rem;
+}
+section h1,
+div h1,
+section h2,
+div h2,
+section h3,
+div h3,
+section h4,
+div h4,
+section h5,
+div h5,
+section h6,
+div h6,
+section p,
+div p,
+section a,
+div a,
+section li,
+div li,
+section th,
+div th,
+section td,
+div td,
+section span,
+div span {
+  padding: 1rem;
+}
+.main-header__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-header__a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #555;
+}
+.intro__article--jumbotron {
+  background: #ccc;
+}
+.education__p--studied:before {
+  content: 'Studied: ';
+}
+.education__p--graduated-with:before {
+  content: 'Graduated With: ';
+}
+.skills__article {
+  display: flex;
+}
+.skills__article--2-cols {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .skills__article--2-cols {
+    flex-wrap: wrap;
+  }
+}
+.skills__section {
+  flex-basis: 50%;
+  margin-top: 2rem;
+}
+@media (max-width: 500px) {
+  .skills__section {
+    flex-basis: 100%;
+  }
+}
+.skills__section:first-child {
+  border-right: 2px double gray;
+}
+@media (max-width: 500px) {
+  .skills__section:first-child {
+    border: none;
+  }
+}
+.skills__h2 {
+  text-align: center;
+}
+.skills__ul {
+  padding-left: 8rem;
+  list-style: square;
+}
+.main-wrapper__div {
+  width: 100%;
+  padding: 2rem 8rem;
+}
